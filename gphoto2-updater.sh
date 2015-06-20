@@ -71,16 +71,16 @@ echo "gphoto2-temp-folder created"
 
 echo 
 echo "-------------------------"
-echo "Downloading libusb 1.0.17"
+echo "Downloading libusb 1.0.19"
 echo "-------------------------"
 echo
 
-if wget -q https://download.nus.edu.sg/mirror/ubuntu/pool/main/libu/libusbx/libusbx_1.0.17.orig.tar.bz2
+if wget -q http://sourceforge.net/projects/libusb/files/libusb-1.0/libusb-1.0.19/libusb-1.0.19.tar.bz2
 	then
-		tar xjvf libusbx_1.0.17.orig.tar.bz2
+		tar xjvf libusb-1.0.19.tar.bz2
 		cd libusbx-1.0.17/
 	else
-		echo "Unable to get libusbx_1.0.17"
+		echo "Unable to get libusb-1.0.19"
 		echo "Cleaning and exiting..."
 		exit 1
 fi
