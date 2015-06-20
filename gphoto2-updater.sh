@@ -87,7 +87,7 @@ fi
 
 echo 
 echo "--------------------------------------"
-echo "Compiling and installing libusb 1.0.17"
+echo "Compiling and installing libusb 1.0.19"
 echo "--------------------------------------"
 
 ./configure
