@@ -10,7 +10,7 @@
 # Please send any feedback or comments to gonzalo.cao(at)gmail.com
 # Updated for gPhoto2 2.5.1.1 by Peter Hinson
 # Updated for gPhoto2 2.5.2 by Dmitri Popov
-# Updated for gphoto2 2.5.5 by Mihai Doarna
+# Updated for gphoto2 2.5.5 by Mihai Doarna17
 # Updated for gphoto2 2.5.6 by Mathias Peter
 # Updated for gphoto2 2.5.7 by Sijawusz Pur Rahnama
 
@@ -78,7 +78,7 @@ echo
 if wget -q http://sourceforge.net/projects/libusb/files/libusb-1.0/libusb-1.0.19/libusb-1.0.19.tar.bz2
 	then
 		tar xjvf libusb-1.0.19.tar.bz2
-		cd libusbx-1.0.17/
+		cd libusb-1.0.19/
 	else
 		echo "Unable to get libusb-1.0.19"
 		echo "Cleaning and exiting..."
